@@ -24,7 +24,7 @@ header{
     right:0;
     top:0;
     background: #000;
-    width: calc(100vw - 200px);
+    width: calc(100% - 300px);
     z-index: 10;
     text-align: right;
     height: 100px;
@@ -32,4 +32,35 @@ header{
 }
 header > div{
     line-height: 100px;
+}
+
+/* Main */
+main{
+    display: flex;
+    height: calc(100vh - 80px);
+    background-color: #000;
+}
+
+.content{
+    width: calc(100vh - 300px);
+    padding-top: 90px;
+}
+
+.playlist{
+    line-height: 40px;
+}
+.crea-playlist i{
+    font-size: 40px;
+}
+
+.btn-crea-playlist{
+    background:none; 
+    border:none;
+    color:white;
+    margin-right:10px;
+}
+
+.crea-playlist a{
+    font-weight: 500;
+    padding-bottom: 20px;
 }
