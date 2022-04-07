@@ -29,8 +29,8 @@ header{
     position: fixed;
     right:0;
     top:0;
-    background: #000;
-    width: calc(100% - 300px);
+    background: rgb(8, 11, 18);
+    width: calc(100% - 225px);
     z-index: 10;
     text-align: right;
     height: 100px;
@@ -62,9 +62,9 @@ aside ul{
 .aside-nav img{
     width: 25px;
 }
-.content{
-    width: calc(100vh - 300px);
+.content{width:calc(100% - 225px);
     padding-top: 90px;
+    background-color: rgb(20, 25, 34);
 }
 
 .playlist{
