@@ -33,10 +33,13 @@ header{
     width: calc(100% - 225px);
     z-index: 10;
     text-align: right;
-    height: 100px;
+    height: 80px;
 }
 header > div{
-    line-height: 100px;
+    line-height: 80px;
+}
+header>button{
+    margin-bottom: 20px;
 }
 
 /* Main */
@@ -89,4 +92,68 @@ aside ul{
 .logo{
     padding-bottom: 25px;
     margin-top: -25px;
+}
+.user-section{
+    display: flex;
+    flex-direction: column;
+    margin-top:auto;
+    padding-bottom: 5px;
+
+}
+
+.user-section img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+.user-section-top{
+    display: flex;
+    align-items: center;
+}
+
+.user-section hr{
+    margin:10px 0;
+    border-color:grey;
+}
+
+/* ALBUM TOP */
+.content-section{
+    background: #141922;
+    height: calc(100vh - 105px);
+    width: calc(100vw - 200px);
+    overflow-y: auto;
+    padding-top:110px;
+    padding-left:30px;
+}
+
+.content-section-nav{
+    margin-bottom: 45px;
+}
+
+.content-section-nav ul li:first-child::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 45px;
+    background:#adff2f;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%,0);
+
+}
+
+.content-section-nav ul li:first-child{
+    position: relative;
+    padding-bottom: 7px;
+}
+
+.content-section-nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 500;
+    
+
 }
