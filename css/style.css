@@ -164,7 +164,7 @@ aside ul{
     overflow-y: auto;
 }
 
-.albums {
+.albums-list {
     display: flex;
     flex-wrap: wrap;
 }
@@ -198,4 +198,18 @@ aside ul{
     color: #fff;
     opacity: 0;
     transition: opacity 0.3s;
+}
+.album:hover .album-image::after {
+    opacity: 1;
+}
+.album h6 {
+    color: gray;
+}
+
+.for-you h5{
+    color: white;
+}
+.for-you{
+    line-height: 40px;
+    margin-top: 20px;
 }
