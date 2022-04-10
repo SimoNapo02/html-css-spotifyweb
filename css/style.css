@@ -213,3 +213,114 @@ aside ul{
     line-height: 40px;
     margin-top: 20px;
 }
+.circle{
+    border-radius: 100%;
+}
+/* FOOTER */
+/* FOOTER */
+footer{
+    height: 105px;
+    background: #282828;
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+
+.song-favorite{
+    margin-left:40px;
+}
+
+.song-favorite i{
+    margin:0 5px;
+}
+
+
+.footer-center-top{
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-center-top i{
+    margin:0 10px;
+}
+
+.footer-center-top i:nth-child(3){
+    font-size: 23px;
+}
+
+.footer-center-top i:nth-child(3):hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.footer-center-bottom input[type="range"]{
+  appearance:none;
+  height: 5px;
+  width: 400px;
+  background: grey;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  border-radius:20px;
+  transition: opacity .2s;
+}
+
+.footer-center-bottom input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: darkgray;
+    cursor: pointer;
+    border-radius:100%
+}
+
+.footer-center-bottom input[type="range"]::-webkit-slider-thumb:hover{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: darkgray;
+    cursor: pointer;
+    border-radius:100%
+}
+
+
+
+.footer-right i{
+    margin:0 5px;
+}
+
+.footer-right input[type="range"]{
+    appearance:none;
+    height: 7px;
+    width: 120px;
+    background: grey;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    border-radius:20px;
+    transition: opacity .2s;
+  }
+  
+  .footer-right input[type="range"]::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      appearance: none;
+      width: 18px;
+      height: 18px;
+      background: darkgray;
+      cursor: pointer;
+      border-radius:100%
+  }
